@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "letscode-service",
+  "private_key_id": "99fed1683c31218c843f594b038c1a70e41f94c6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDGkUlj7f3yTBC4\n4RpT2d/A9cS2raKJLf3j/5dkHS0RWtAT9Y9m1vX4LAw6BDEEbpNqXJz2PRApSv5p\nH8PZgojJA876En7UtN2FHCT6tta1ST9AlDlP8rq57V1O3TldwhRk6ngkghG9b/4X\njwzljHAZGYc0GgP5iyjKRY4P7ccZ0s9QdC+4sFcfAhUzYTZfW34wU46j2XhD2z6w\nnCqIKBoCmqvKLeHflr9D/tzHa5HeVD56cgLKjR2gYCoqyi3O0JGuw+eSYJLoyYB2\nk9wGWeO0L0plwheFlkPFDUGA/mt7B/QQHxMzRawO4xDmJJlJwfDSGqz5oNXymRlR\nw56TanLFAgMBAAECggEASGl4LZB/QMp7eKhiXPzBq9EUfRfiA4u5oFk3gMNhCYio\nA/dTZcnzZh7OEKQxqe+XI70FYojPKXfXQkfauKnxLvkMFEcFaJVSiTXDyIg/0VmW\nTvse0WhvrtkAY3+qaWYa4NhemtWyGXbLXxUEO3vU71pPY3EvTOPyKp1l2qo4JtKE\nzt2U4f2xs4VMgRZNV9hwOJJ4f4DDMiCUVjd1RVh4plPxOLto6fqq/FLo2CnkJltu\nBGrC01gljody3+8wi9RJZWuPde5XWBfMXgA+21E4AVoluPxPSRy4tKJ0CWPhavn6\nN7b41dy++XPkPCL20lCslvmQXsR/ktltO1Yyj4aw6wKBgQDpACN45EOQOd0BDbjm\npjpykpXYP8GnF9d9UNC4ywYeZPW1shnxvbTgUORYizV7Y8dcjJ8mTDvzFm7Pp5TY\nrvOBRe0MO+qViP3K2Z2f9CF/Q/8pI1Oxer4U6lcWG4FdPWxz6jjjI2rBUxb+mfms\nEBHRt19GW1viUGbI5bMQUJmEjwKBgQDaKwj3O2Y4LCgoclfj20ed6f0tbwrzTi0W\nDmqGzhugKbkrBe5gYoqhnDUd5uLZv0DPhzspghUblAyOdvQjFdxazz3soFBIQPjI\nr+jJsWBpmFaokOXs8bA5w/xDjXb79+SCGy+Eres4u5WYlQv3KEQG9uO/WVN3rnYT\nCXSFpuLFawKBgQC8Ltt3cUzMOJ+xkSasSsdb795MSLocPVpSoSnihj8L31jABfeE\nUka7ATpb9Rsd7CmBKyYC5YFpxM18s4m5NBwBZbudrOq7GWh5JCd1n9RKGF4GGL0o\n08yf0eDCPzbNWqW0PRDzCpDXUUd6HFwVRulNav/tMC5W678INNTZsW88KwKBgFeE\nf/o9l8nc3Ncs11kOc/JDFU8OhoQHzkpUyiL9t1NOqXs6y99aaGZgNWajYkkbUbJu\neysxhaokf8z+pv0UHetHy32K6emyNpq7BlUylIyHkevZBINCiQEDP8URkLOPQ9l1\ncmB1LDD7/wzQbZZeTrvEeqQd/z+5eqA0YMvkoH+1AoGAabYUyFcHI0t2Q9cVI9nG\niZPj9xNgvyswfzG0REfCixSYPGbs9QRRolH+BoCxPFmpb3ZVM+dRFmRNotMngp+v\n618Fx11xhBE8GbwEUM6burr+UD64B3I5WDTVBkPFpqEdW/3SSzxkHt6D3dthCAOE\nHm+RooI1qRBWUOLg1VSD7H0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "lets-code-service@letscode-service.iam.gserviceaccount.com",
+  "client_id": "109275267535448294017",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/lets-code-service%40letscode-service.iam.gserviceaccount.com"
+}

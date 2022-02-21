@@ -1,0 +1,543 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "LetsCode API",
+    "contact": {},
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8080",
+      "variables": {}
+    },
+    {
+      "url": "https://lets-code-site.herokuapp.com",
+      "variables": {}
+    }
+  ],
+  "paths": {
+    "/player": {
+      "post": {
+        "tags": [
+          "localhost"
+        ],
+        "summary": "Create player",
+        "operationId": "Createplayer",
+        "parameters": [],
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateplayerRequest"
+              },
+              "example": {
+                "name": "new player 2",
+                "login": "postman_test2",
+                "password": "postman123"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "http://localhost:8080",
+            "variables": {}
+          }
+        ]
+      },
+      "get": {
+        "tags": [
+          "localhost"
+        ],
+        "summary": "ListAll players",
+        "operationId": "ListAllplayers",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "http://localhost:8080",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/player/1645304188168": {
+      "get": {
+        "tags": [
+          "localhost"
+        ],
+        "summary": "Read player",
+        "operationId": "Readplayer",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "http://localhost:8080",
+            "variables": {}
+          }
+        ]
+      },
+      "put": {
+        "tags": [
+          "localhost"
+        ],
+        "summary": "Update player",
+        "operationId": "Updateplayer",
+        "parameters": [],
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateplayerRequest"
+              },
+              "example": {
+                "name": "player updated",
+                "login": "postman_test",
+                "password": "postman123"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "http://localhost:8080",
+            "variables": {}
+          }
+        ]
+      },
+      "delete": {
+        "tags": [
+          "localhost"
+        ],
+        "summary": "Delete player",
+        "operationId": "Deleteplayer",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "http://localhost:8080",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/player/login": {
+      "post": {
+        "tags": [
+          "localhost"
+        ],
+        "summary": "Login for start game",
+        "operationId": "Loginforstartgame",
+        "parameters": [],
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginforstartgameRequest"
+              },
+              "example": {
+                "name": "new player2",
+                "login": "postman_test2",
+                "password": "postman123"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "http://localhost:8080",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/game": {
+      "get": {
+        "tags": [
+          "localhost"
+        ],
+        "summary": "ListAll games",
+        "operationId": "ListAllgames",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "http://localhost:8080",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/game/rank": {
+      "get": {
+        "tags": [
+          "localhost"
+        ],
+        "summary": "List ranking",
+        "operationId": "Listranking",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "http://localhost:8080",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/game/1645377368172": {
+      "get": {
+        "tags": [
+          "localhost"
+        ],
+        "summary": "Read a game",
+        "operationId": "Readagame",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "http://localhost:8080",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/game/finish/1645364758536": {
+      "put": {
+        "tags": [
+          "localhost"
+        ],
+        "summary": "Finish a game",
+        "operationId": "Finishagame",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "http://localhost:8080",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/game/round/1645377368172": {
+      "put": {
+        "tags": [
+          "localhost"
+        ],
+        "summary": "Insert a round in game",
+        "operationId": "Insertaroundingame",
+        "parameters": [],
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InsertaroundingameRequest"
+              },
+              "example": {
+                "filmOne": "Batman 3",
+                "filmTwo": "Jai Bhim"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "http://localhost:8080",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/about": {
+      "get": {
+        "tags": [
+          "localhost"
+        ],
+        "summary": "Get about",
+        "operationId": "Getabout",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "http://localhost:8080",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "localhost"
+        ],
+        "summary": "Test server",
+        "operationId": "Testserver",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "http://localhost:8080",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/player/1645316821270": {
+      "put": {
+        "tags": [
+          "production"
+        ],
+        "summary": "Update player",
+        "operationId": "PutUpdateplayer",
+        "parameters": [],
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateplayerRequest"
+              },
+              "example": {
+                "name": "player updated",
+                "login": "postman_test",
+                "password": "postman123"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://lets-code-site.herokuapp.com",
+            "variables": {}
+          }
+        ]
+      },
+      "delete": {
+        "tags": [
+          "production"
+        ],
+        "summary": "Delete player",
+        "operationId": "Deleteplayer1",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "http://localhost:8080",
+            "variables": {}
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CreateplayerRequest": {
+        "title": "CreateplayerRequest",
+        "required": [
+          "name",
+          "login",
+          "password"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "login": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string"
+          }
+        },
+        "example": {
+          "name": "new player 2",
+          "login": "postman_test2",
+          "password": "postman123"
+        }
+      },
+      "UpdateplayerRequest": {
+        "title": "UpdateplayerRequest",
+        "required": [
+          "name",
+          "login",
+          "password"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "login": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string"
+          }
+        },
+        "example": {
+          "name": "player updated",
+          "login": "postman_test",
+          "password": "postman123"
+        }
+      },
+      "LoginforstartgameRequest": {
+        "title": "LoginforstartgameRequest",
+        "required": [
+          "name",
+          "login",
+          "password"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "login": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string"
+          }
+        },
+        "example": {
+          "name": "new player2",
+          "login": "postman_test2",
+          "password": "postman123"
+        }
+      },
+      "InsertaroundingameRequest": {
+        "title": "InsertaroundingameRequest",
+        "required": [
+          "filmOne",
+          "filmTwo"
+        ],
+        "type": "object",
+        "properties": {
+          "filmOne": {
+            "type": "string"
+          },
+          "filmTwo": {
+            "type": "string"
+          }
+        },
+        "example": {
+          "filmOne": "Batman 3",
+          "filmTwo": "Jai Bhim"
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "localhost"
+    },
+    {
+      "name": "production"
+    }
+  ]
+}

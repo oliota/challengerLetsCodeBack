@@ -1,0 +1,612 @@
+{
+	"info": {
+		"_postman_id": "3bc4fff3-d0e8-4311-9da4-e02d0ebb2bb2",
+		"name": "LetsCode API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Player",
+			"item": [
+				{
+					"name": "localhost",
+					"item": [
+						{
+							"name": "Create player",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\":\"new player 2\",\r\n    \"login\":\"postman_test2\",\r\n    \"password\":\"postman123\"\r\n}"
+								},
+								"url": {
+									"raw": "localhost:8080/player",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"player"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Read player",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/player/1645304188168",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"player",
+										"1645304188168"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update player",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"player updated\",\r\n    \"login\": \"postman_test\",\r\n    \"password\": \"postman123\"\r\n}"
+								},
+								"url": {
+									"raw": "localhost:8080/player/1645304188168",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"player",
+										"1645304188168"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete player",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/player/1645304188168",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"player",
+										"1645304188168"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ListAll players",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/player",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"player"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Login for start game",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\":\"new player2\",\r\n    \"login\":\"postman_test2\",\r\n    \"password\":\"postman123\"\r\n}"
+								},
+								"url": {
+									"raw": "localhost:8080/player/login",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"player",
+										"login"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "production",
+					"item": [
+						{
+							"name": "Create player",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\":\"new player\",\r\n    \"login\":\"postman_test\",\r\n    \"password\":\"postman123\"\r\n}"
+								},
+								"url": {
+									"raw": "https://lets-code-site.herokuapp.com/player",
+									"protocol": "https",
+									"host": [
+										"lets-code-site",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"player"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Read player",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://lets-code-site.herokuapp.com/player/1645304188168",
+									"protocol": "https",
+									"host": [
+										"lets-code-site",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"player",
+										"1645304188168"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update player",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"player updated\",\r\n    \"login\": \"postman_test\",\r\n    \"password\": \"postman123\"\r\n}"
+								},
+								"url": {
+									"raw": "https://lets-code-site.herokuapp.com/player/1645316821270",
+									"protocol": "https",
+									"host": [
+										"lets-code-site",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"player",
+										"1645316821270"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete player",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/player/1645316821270",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"player",
+										"1645316821270"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ListAll players",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://lets-code-site.herokuapp.com/player",
+									"protocol": "https",
+									"host": [
+										"lets-code-site",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"player"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Game",
+			"item": [
+				{
+					"name": "localhost",
+					"item": [
+						{
+							"name": "ListAll games",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/game",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"game"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "List ranking",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/game/rank",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"game",
+										"rank"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Read a game",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/game/1645377368172",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"game",
+										"1645377368172"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Finish a game",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/game/finish/1645364758536",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"game",
+										"finish",
+										"1645364758536"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Insert a round in game",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \r\n    \"filmOne\":\"Batman 3\",\r\n    \"filmTwo\":\"Jai Bhim\" \r\n}"
+								},
+								"url": {
+									"raw": "localhost:8080/game/round/1645377368172",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"game",
+										"round",
+										"1645377368172"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "production",
+					"item": [
+						{
+							"name": "ListAll games",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://lets-code-site.herokuapp.com/game",
+									"protocol": "https",
+									"host": [
+										"lets-code-site",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"game"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "List ranking",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://lets-code-site.herokuapp.com/game/rank",
+									"protocol": "https",
+									"host": [
+										"lets-code-site",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"game",
+										"rank"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Read a game",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://lets-code-site.herokuapp.com/game/1645377368172",
+									"protocol": "https",
+									"host": [
+										"lets-code-site",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"game",
+										"1645377368172"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Finish a game",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "https://lets-code-site.herokuapp.com/game/finish/1645364758536",
+									"protocol": "https",
+									"host": [
+										"lets-code-site",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"game",
+										"finish",
+										"1645364758536"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Insert a round in game",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \r\n    \"filmOne\":\"Batman 3\",\r\n    \"filmTwo\":\"Jai Bhim3\" \r\n}"
+								},
+								"url": {
+									"raw": "https://lets-code-site.herokuapp.com/game/round/1645377368172",
+									"protocol": "https",
+									"host": [
+										"lets-code-site",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"game",
+										"round",
+										"1645377368172"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "About server",
+			"item": [
+				{
+					"name": "localhost",
+					"item": [
+						{
+							"name": "Get about",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/about",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"about"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Test server",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080",
+									"host": [
+										"localhost"
+									],
+									"port": "8080"
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "production",
+					"item": [
+						{
+							"name": "Get about",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://lets-code-site.herokuapp.com/about",
+									"protocol": "https",
+									"host": [
+										"lets-code-site",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"about"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Test server",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://lets-code-site.herokuapp.com/",
+									"protocol": "https",
+									"host": [
+										"lets-code-site",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
